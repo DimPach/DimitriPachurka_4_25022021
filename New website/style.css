@@ -49,6 +49,19 @@ blockquote p {
     padding: 50px 50px;
 }
 
+.contact {
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+.contact:hover {
+    color: #c27956!important
+}
+
+.site-navigation li a:hover {
+    color: #c27956!important;
+}
+
 /* Fin modifs */
 
 .bloc {
@@ -719,6 +732,8 @@ a {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -754,6 +769,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -798,6 +814,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    margin-bottom: 30px;
 }
 
 .btn-atomic-tangerine:hover {
@@ -839,7 +856,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("New website\img\image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1055,5 +1072,12 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .img-responsive {
+        max-width: 320px;
+        max-height: 320px;
+        margin: auto;
+        margin-bottom: 30px;
     }
 }
